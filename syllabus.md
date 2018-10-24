@@ -12,6 +12,7 @@ A. Data Engineering (3 weeks)
 * ORMs
 * HTML/Scraping
 * Flask
+
 3. Week 3
 * Dash  
 * Dash
@@ -27,9 +28,9 @@ B. Statistics (3 weeks)
 * Experiments
 2. Week 2
 * Distributions
-* Normal
-* Poisson
-* Geometric
+  * Normal
+  * Poisson
+  * Geometric
 * Introduction to Regression
 * Regression evaluation  
 3. Week 3  
