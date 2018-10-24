@@ -20,27 +20,22 @@ A. Data Engineering (3 weeks)
 B. Statistics (3 weeks)
 
 1. Week 1
-
 * Numpy
 * Pandas  
 * Advanced Pandas
 * Probability
 * Experiments
-
 2. Week 2
-
 * Distributions
 * Normal
 * Poisson
 * Geometric
-* Regression
+* Introduction to Regression
 * Regression evaluation  
-
-Week 3  
-* Advanced Regression
-* Multiparameter Regression
-* Model Building
+3. Week 3  
+* Multiple Regression and Model Building
 * Projects
+
 * Machine Learning  
 * Deep Learning  
-Projects
+  Projects
