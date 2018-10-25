@@ -89,7 +89,7 @@ def search_by_rank(rank, data_set):
                 return album
 # Example 1 After:
 def search_by_rank_2(rank, data_set):
-    return [album['name'] for album in data_set if rank == album['rank']][0def
+    return [album['name'] for album in data_set if rank == album['rank']][0]
 
 
 all_artists(data_set):
