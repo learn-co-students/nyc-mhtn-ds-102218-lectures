@@ -8,10 +8,10 @@ def all_artists():
     return artists
 
 
-def find_name(name):
-    answer= list(filter(lambda album: album["album"]==name, albums))
-    return answer
-    #(old)for i in albums:
+def find_album(name):
+    # answer= list(filter(lambda album: album["album"]==name, albums))
+    return list(filter(lambda album: album["album"]==name, albums))
+    # (old)for i in albums:
      #   (old)if album==i["album"]:
       #      (old)return i
        #(old) else:
@@ -21,12 +21,15 @@ def find_name(name):
 
 
 def findByNameRankYear(val):
+    # first im doing this
+    # then im doing this
     if (isinstance (val,str)):
         return list(filter(lambda album: album['album'] == val,albums))
 
     if (isinstance (val,int)):
         newVal = str(val)
         length = len(newVal)
+        # is_it_x?()
         if (length == 4):
             return list(filter(lambda album: album['year'] == val, albums))
         if (length < 4):
