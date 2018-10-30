@@ -20,3 +20,17 @@
     -> should return all of the Airlines that have been initialized
   - Flight.all()
     -> should return all of the flights that have been initialized
+
+Bonus!!
+  - Build the following instance method
+    - airline.add_flight(flight)
+      You should pass through a *flight instance* to the add_flight method
+      After passing through a flight to the add_flight() method, you should be able to call airline.flights -> [flight]
+      (ie it should return a list with the flight you added, in the list)
+    - Bonus
+      - delta = Airline()
+      - flight = Flight()
+      - After calling  delta.add_flight(flight)
+      then, without doing anything else, if I call...
+     flight.airline() -> delta
+     (it should return delta)
