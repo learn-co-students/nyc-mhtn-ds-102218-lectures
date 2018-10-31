@@ -1,7 +1,15 @@
 class Flight:
+    _all = []
+
     def __init__(self, number):
+        Flight._all.append(self)
         self._number = number
 
+    @classmethod
+    def all(cls):
+        print(cls)
+        return Flight._all
+        
     @property
     def number(self):
         return self._number
@@ -23,6 +31,6 @@ class Flight:
         self._airline = airline
 
     # airline = airline.setter(add_airline)
-    
+
 # flight belongs to an airline
 # airline has many flights
