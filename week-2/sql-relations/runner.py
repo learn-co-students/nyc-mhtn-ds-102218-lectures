@@ -15,6 +15,8 @@ def create_books():
     """
     return create_sql
 
+class Book():
+    @classmethod
 def select_by_name(name):
     select_sql = """
         select * from books where title = 'Prince and the Pauper';

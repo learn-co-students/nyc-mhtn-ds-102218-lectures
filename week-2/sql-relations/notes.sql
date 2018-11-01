@@ -37,3 +37,6 @@ INSERT INTO posts (title, content, author_id) VALUES
       ('United States'),
       ('England'),
       ('India');
+
+
+      select countries.name from posts join authors on posts.author_id = authors.id join countries on authors.country_id = countries.id where title = 'my special post';
