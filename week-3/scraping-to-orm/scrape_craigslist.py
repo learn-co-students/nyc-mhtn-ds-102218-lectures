@@ -7,9 +7,10 @@ class ListingBuilder:
     def run(self):
         cl = CraigsListScraper()
         listings = []
+        cl.webpage_html()
         for listing_html in cl.listings_html():
             parser = ListingParser(listing_html)
-            listing = Listing(parser.title(), parser.housing(), parser.neighborhood(), parser.price())
+            listing = Listing(title = parser.title(), housing = parser.housing(), neighborhood = parser.neighborhood(), price = parser.price())
             listings.append(listing)
         return listings
 
@@ -37,12 +38,15 @@ class ListingParser:
         return self.parse(self.listing_html, 'title')
 
     def housing(self):
-        return self.parse(self.listing_html, 'housing').strip()
+        housing = self.parse(self.listing_html, 'housing')
+        if housing:
+            return housing.strip()
 
     def price(self, listings = None):
         price = self.parse(self.listing_html, 'price')
         return int(price[1:])
 
-    def parse(self, criteria):
-        result = self.listing_html.find(class_=re.compile(r'.*%s' % criteria)})
-        return result.text
+    def parse(self, listing_html, criteria):
+        result = listing_html.find(class_=re.compile(r'.*%s' % criteria))
+        if result:
+            return result.text
