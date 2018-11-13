@@ -10,3 +10,8 @@ class Listing(db.Model):
     @classmethod
     def most_expensive(cls):
         pass
+
+
+# session.query(Listing).all()
+# Listing.query.all()
+# Listing.query.filter_by()
