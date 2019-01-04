@@ -1,0 +1,7 @@
+[
+  "test/index_test.py::TestStringFunctions::test_anonymize_credit_card_number",
+  "test/index_test.py::TestStringFunctions::test_remove_duplicate_punctuation",
+  "test/index_test.py::TestStringFunctions::test_replace_given_substring",
+  "test/index_test.py::TestStringFunctions::test_say_hello",
+  "test/index_test.py::TestStringFunctions::test_validate_email_format"
+]
