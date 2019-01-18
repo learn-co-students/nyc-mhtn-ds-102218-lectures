@@ -1,18 +1,17 @@
 ## Module 4 Projects
 
-## Deep Learning
+## Deep Learning and Advanced Topics
 
-In module 4, we covered unsupervised learning and deep learning. We'll have a mini science fair in class on Tuesday, September 18th, where you will be presenting to your fellow Data Scientists!
+In module 4, we covered unsupervised learning, time series and deep learning. We'll have a presentation in class on where you will be presenting to your fellow Data Scientists!
 
-Your project can include:
+Your project must be focused on one of the following topics:
 
-* Dimensionality Reduction
+
+* Time Series
+* Recommendation Systems
 * Clustering
 * Deep Neural Networks
 * Convolutional Neural Networks
-* Auto-encoders
-* Word2Vec NLP analysis
-* Recurrent Neural Networks
 
 #### Mod 4 Project Specifications
 
@@ -26,7 +25,7 @@ Your project should contain:
 * Conclusion
   * So what? Given your analysis, what do we now know about our initial problem statement?
 
-Your final product can either be an analysis (in a jupyter notebook, dashboard, or slideshow) or a web application (with Flask or Dash).
+Your final product can either be an analysis (in a Jupyter notebook, dashboard, or slideshow) or a web application (with Flask or Dash).
 
 #### Data Gathering
 
